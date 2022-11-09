@@ -1,0 +1,30 @@
+###
+GET http://localhost:3030
+
+###
+GET http://localhost:3030/phones
+
+###
+GET http://localhost:3030/api/phones/1
+
+###
+POST  http://localhost:3030/api/phones
+Content-Type: application/json
+
+{
+    "brand": "samsung",
+    "price": 800
+}
+
+###
+DELETE  http://localhost:3030/api/phones/2
+
+###
+PATCH  http://localhost:3030/api/phones/3
+Content-Type: application/json
+
+{
+    "brand": "nokia"
+}
+
+
